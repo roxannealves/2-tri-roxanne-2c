@@ -1,11 +1,11 @@
-:root {
-    --cor-de-fundo:
+.cabecalho {
+    background-color: var(--cor-do-cabecalho);
 }
 
-body {
-    background-color: var(--cor-de-fundo);
-}
-
-h1 {
-    background-color: darkslateblue;
+.cabecalho-titulo {
+    font-size: 36px;
+    font-weight: 500;
+    padding: 12px;
+    text-align: center;
+    
 }
