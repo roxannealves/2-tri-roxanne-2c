@@ -1,16 +1,16 @@
 :root {
-    --cor-de-fundo: rgb(9, 9, 128);
+    --cor-de-fundo: rgb(39, 39, 173);
     --cor-cabecalho: rgba(218, 32, 32, 0.884);
     --fundo-menu: rgb(197, 197, 197);
 
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: rgb(174, 87, 233);
 }
 
 .cabecalho {
-    background-color: var(--cor-do-cabecalho);
+    background-color: rgb(88, 34, 124); 
 }
 
 .cabecalho-titulo {
@@ -19,20 +19,36 @@ body {
     padding: 12px;
     text-align: center;
     
+    
 }
 .cabecalho-menu {
-    background-color: var(--fundo-menu);
+    background-color: rgb(165, 163, 187) 
 }
 
 .cabecalho-menu-item{
     display: block;
     padding: 10px;
     font-size: 24px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(9, 8, 71);
     text-align: center;
     border-top: 1px solid;
 }
 .img-class{
     width: 400px
+}
+
+#burger {
+    background-color:blueviolet;
+    display: block;
+    color:antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    display: none;
+}
+
 }

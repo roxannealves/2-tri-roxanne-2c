@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
     <title>Taylor Swift</title>
 </head>
 <body>
@@ -13,14 +14,26 @@
     <header class="cabecalho">
         <img class="img-class" src="" alt="">
         <h1 class="cabecalho-titulo">Quem é Taylor Swift?</h1>
+        <span id="burger" class="material-symbols-outlined"
+        onclick="clickMenu()">menu</span>
+        <nav id="menu" class="cabecalho-menu">
         <nav class="cabecalho-menu">
             <ul>
-                <li><a class="cabecalho-menu-item" href="#">albuns</a></li>
+                <li><a class="cabecalho-menu-item" href="#">albúns</a></li>
                 <li><a class="cabecalho-menu-item" href="#">titúlos</a></li>
                 <li><a class="cabecalho-menu-item" href="#">biografia</a></li>
             </ul>
         </nav>
    </header>
+   <script>
+    function clickMenu() {
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+   </script>
     
 
     
